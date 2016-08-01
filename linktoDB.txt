@@ -1,0 +1,3 @@
+link to database user-root pass-cabot1234
+
+http://192.168.5.132/phpmyadmin/index.php?token=8a78dcc9792b8f714546a53f69e1f713#PMAURL-1:db_structure.php?db=gadgets&table=&server=1&target=&token=8a78dcc9792b8f714546a53f69e1f713
