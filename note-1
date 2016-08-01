@@ -1,0 +1,4 @@
+git checkout master
+git pull [origin/remote-name] master
+git merge [branch-name]
+git push [origin/remote-name] master
