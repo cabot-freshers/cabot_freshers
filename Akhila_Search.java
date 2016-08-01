@@ -1,6 +1,6 @@
 import java.util.Scanner;
  
-class Search 
+class Akhila_Search 
 {
 	static Scanner input = new Scanner(System.in);
 	static String userInput = null;
