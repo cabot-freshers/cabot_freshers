@@ -8,9 +8,9 @@ class LinearSearch
 {
 	public static void main(String args[])
 	{
-		int k=1, j, i, n, search;					
+		int k=1, j, i, n, search;	//initializing values//				
 		
-		while(k!=0)		
+		while(k!=0)		//loop for continious execution//
 		{		
 			try
 			{
@@ -27,9 +27,9 @@ class LinearSearch
       				     array[i] = in.nextInt();
  	
    				System.out.println("Enter value to find");
-    				search = in.nextInt();
- 
-    				for (i = 0; i < n; i++)
+    				search = in.nextInt();				//recieving all values//
+
+    				for (i = 0; i < n; i++)				//conducting linear search//
     				{
       					if (array[i] == search)     
       					{	
@@ -48,7 +48,7 @@ class LinearSearch
 					}
 
 				
-				System.out.println("You want to continue : (Y/N) ");
+				System.out.println("You want to continue : (Y/N) ");	//loop for user continuation//
 				String userInput = in.next();
 				if (userInput.equalsIgnoreCase("N"))
                         	{
@@ -62,7 +62,7 @@ class LinearSearch
 				
   			}
   			
-			catch (Exception e)				
+			catch (Exception e)			// catch any unwanted input from the user//	
   			{
   				System.out.println("Error Encountered please enter correct input");
   			}

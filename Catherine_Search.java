@@ -8,7 +8,7 @@ import java.util.*;
    * @author  Catherine K G.
    */
 
-class Search
+class Catherine_Search
 {
 
 /**
