@@ -3,7 +3,7 @@
 import java.io.*;
 import java.util.Scanner;
 
-class dino_quicksort
+class Dino_QuickSort
     {
         public static void main(String[] args)
                 {

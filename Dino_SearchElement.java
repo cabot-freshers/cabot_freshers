@@ -3,7 +3,7 @@
 import java.io.*;
 import java.util.Scanner;
 import java.lang.*;
-class dino_searchelement
+class Dino_SearchElement
     {
         public static void main(String[] args)
                {
