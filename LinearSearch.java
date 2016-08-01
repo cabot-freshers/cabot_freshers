@@ -10,6 +10,7 @@ class LinearSearch
     					int c, n, search, array[];
  					
    				 	Scanner in = new Scanner(System.in);
+					Scanner input = new Scanner(System.in);
     					System.out.println("Enter number of elements");
     					while (!in.hasNextInt()){        
     				
@@ -21,6 +22,10 @@ class LinearSearch
 						System.out.println("Please enter a positive integer!");
 						continue;
 					} 
+					System.out.println("Enter some string");
+			String word = input.next();
+			System.out.println("Token:" + word);
+
     					array = new int[n];
  
     					System.out.println("Enter " + n + " integers");
@@ -48,7 +53,7 @@ class LinearSearch
   
   				System.out.println("Continue(Y/N)");
         			
-				if(in.next().equalsIgnoreCase("n"))/*Prompt the user for continue the search process*/
+				if(in.next().equalsIgnoreCase("n"))/*Prompt the user for continue the 									 search process*/
 					break;
 			}
   			catch (Exception e){
