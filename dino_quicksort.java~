@@ -47,7 +47,7 @@ class dino_quicksort
 
 				System.out.println("You want to continue : (Y/N) ");		//Scan to continue
                 		Scanner s = new Scanner(System.in);
-                            	String userInput = s.next();
+                            	String user = s.next();
                            	if (userInput.equalsIgnoreCase("N"))
                            	{
                                  System.out.print("Thank you !!");
