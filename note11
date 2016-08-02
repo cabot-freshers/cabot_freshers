@@ -1,4 +1,0 @@
-git checkout master
-git pull [remote-name] master
-git merge [branch-name]
-git push [remote-name] master
