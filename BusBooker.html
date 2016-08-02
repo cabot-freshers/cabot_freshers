@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BusBooker.html</title>
+	<style>
+	body 
+	{
+    background-color: grey;
+    }
+
+	h1 
+	{
+    color: Red;
+    text-align: center;
+	}
+
+	p 
+	{
+    color: Green;
+    font-family: verdana;
+    font-size: 20px;
+	}
+	</style>
+</head>
+<body>
+	<h1><center>Bus Booker</center></h1>
+	
+<img src="/home/cabot/Downloads/Akshay/HTML/redbus.png" alt="picture" width="1275" height="400" align="center">
+
+<p><b><br><center>Locations And Rates</center></br></b></p>
+
+<table border="1" style="width:100%">
+    <tr>
+    	<td>Air Conditioned</td>
+    	<td>Sleeper</td>
+    	<td>Rs-1700/-</td>
+  </tr>
+  <tr>
+    	<td>Non-AC</td>
+    	<td>Semi-Sleeper</td>
+    	<td>Rs-1300/-</td>
+  </tr>
+</table>  
+	
+<a href="https://en.wikipedia.org/wiki/Ibibo">Click here to know about Bus Booker</a>
+
+<h1><center>Booking Details</center></h1>
+
+<fieldset>
+		From:<br>
+			<input type="text" name="txtFrom"><br>
+		To:<br>
+			<input type="text" name="txtTo"><br>
+</fieldset>
+
+<fieldset>
+		Date Of Journey:<br>
+			<input type="text" name="txtDateOfJourney"><br>
+</fieldset>
+
+<fieldset>
+		First Name:<br>
+			<input type="text" name="txtFirstName"><br>
+		Last Name:<br>
+			<input type="text" name="txtLastName"><br>
+</fieldset>
+
+<fieldset>
+		<legend>Input Gender:</legend><br>
+			<input type="radio" name="rdGender" value="male">Male
+			<input type="radio" name="rdGender" value="female">Female<br>
+</fieldset>
+
+<fieldset>	
+		<legend>Date Of Birth:</legend><br>
+			<input type="date" name="txtBirthday">	
+	
+</fieldset>
+
+<fieldset>	
+	<legend>Telephone:</legend><br>
+	  	<select>
+  			<option value="Kerala">Kerala</option>
+ 			<option value="Karnataka">karnataka</option>
+  			<option value="Tamil Nadu">Tamil Nadu</option>
+ 			<option value="Telengana">Telengana</option>
+			<option value="Andhra">Andhra</option>
+			
+			</select>
+			<input type="tel" name="txtTel">
+</fieldset>	
+
+<fieldset>		
+	<legend>Type Of Seat:</legend><br>
+		<input type="checkbox" name="chkEdu" value="Window"> Window Seat
+	  	<input type="checkbox" name="chkEdu" value="Aisle"> Aisle 
+</fieldset>	
+
+<fieldset>		
+	<legend>Type Of Bus:</legend><br>
+		<input type="checkbox" name="chkEdu" value="Sleeper"> Sleeper<br>
+	  	<input type="checkbox" name="chkEdu" value="Semi-Sleeper"> Semi-Sleeper 
+</fieldset>
+
+<fieldset>
+		<legend>Email:</legend><br>
+			<input type="email" name="email">	
+</fieldset>	
+
+<fieldset>
+	<legend><p1>Enter your address:</p1></legend><br>
+		<textarea rows="5" cols="50"></textarea>
+</fieldset>
+
+<fieldset>
+	<legend><p2>Upload a Photo:</p2></legend></br>
+	<input type="file" alt="" name="pic" accept="image/*">
+</fieldset>
+
+<center><input type="submit" value="Submit" name="btSubmit"></center>
+
+</body>
+</html>
